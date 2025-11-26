@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mebel-shop/static/css/main.759d021a.css",
-    "main.js": "/mebel-shop/static/js/main.f4617e44.js",
+    "main.js": "/mebel-shop/static/js/main.57886b39.js",
     "static/media/комната.jpg": "/mebel-shop/static/media/комната.2d83f1f9033bb0bbea17.jpg",
     "index.html": "/mebel-shop/index.html",
     "main.759d021a.css.map": "/mebel-shop/static/css/main.759d021a.css.map",
-    "main.f4617e44.js.map": "/mebel-shop/static/js/main.f4617e44.js.map"
+    "main.57886b39.js.map": "/mebel-shop/static/js/main.57886b39.js.map"
   },
   "entrypoints": [
     "static/css/main.759d021a.css",
-    "static/js/main.f4617e44.js"
+    "static/js/main.57886b39.js"
   ]
 }
