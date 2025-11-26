@@ -1,0 +1,55 @@
+.item {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  align-items: center; 
+  gap: 15px;
+  
+  img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    flex-shrink: 0;
+    float: none;
+    margin-right: 0;
+  }
+
+  .itemContent {
+    flex: 1;
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: #222;
+    }
+
+    p {
+      color: #797979;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+
+  .deleteIcon {
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+
+    &:hover {
+      color: #d83030;
+      transform: scale(1.5);
+    }
+  }
+  
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
